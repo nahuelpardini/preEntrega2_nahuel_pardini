@@ -113,8 +113,26 @@ h2{
 /* About Main CSS End */
 
 
+/* Upcoming Events*/
+
+.upcoming_events{
+    text-decoration-color:#ffffff;
+    font-size: 25px;
+    margin: 50px;    
+    font-family: 'Michroma', sans-serif;
+}
+
+.events_list{
+    line-height: 55px;
+    margin: 50px ;
+    width: 90%;    
+    
+    font-size: 15px;
+    font-family: 'Michroma', sans-serif;
+}
 
 
+/* Upcoming Events */
 
 
 

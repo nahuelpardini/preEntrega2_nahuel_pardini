@@ -60,6 +60,7 @@ h2{
     font-family: 'Michroma', sans-serif;
 }
 
+
 li{
     list-style: none;
 }
@@ -174,7 +175,7 @@ a{
     line-height: 55px;
     margin: 50px ;
     width: 90%;    
-    text-justify: left;
+    
     font-size: 15px;
     font-family: 'Michroma', sans-serif;
 }
