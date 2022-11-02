@@ -91,7 +91,7 @@ h2{
 .home_news{
     
     font-family: 'Raleway', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 
@@ -107,6 +107,7 @@ h2{
     
     margin: 50px 50px 50px 50px ;
     width: 60%;    
+    font-size: 17px;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -126,9 +127,8 @@ h2{
     line-height: 55px;
     margin: 50px ;
     width: 90%;    
-    
-    font-size: 15px;
-    font-family: 'Michroma', sans-serif;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
 }
 
 
