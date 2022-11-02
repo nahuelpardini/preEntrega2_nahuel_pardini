@@ -13,6 +13,8 @@ h2{
     font-family: 'Michroma', sans-serif;
 } 
 
+
+/* Main title */
 .main_title_bg {
     display: flex;    
     justify-content: center;
@@ -58,13 +60,16 @@ h2{
 
 }
 
+/* Main title End */
 
+
+
+/* NavBar */
 .dropdown-item {
     display: flex;
     font-family: 'Michroma', regular;
     font-size: 80%;
 }
-
 
 .nav-link{
     color: whitesmoke !important;
@@ -76,6 +81,10 @@ h2{
     font-family: 'Michroma', regular;
     font-size: 80%;
 }
+/* NavBar End */
+
+
+
 
 /* Index img start */
 
@@ -87,12 +96,17 @@ h2{
 
 
 
+
 /* Index News */
 .home_news{
     
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
 }
+
+/* Index News End */
+
+
 
 
 /*About Main CSS */
@@ -114,6 +128,33 @@ h2{
 /* About Main CSS End */
 
 
+
+/* Dance Videos */
+
+.dance_videos_title {
+    text-decoration-color:#ffffff;
+    font-size: 25px;
+    margin: 50px 20px;    
+    font-family: 'Michroma', sans-serif; 
+}
+
+
+/* Dance Videos End */
+
+
+/* Dance Carousel */
+
+.dance_photos_title {
+    text-decoration-color:#ffffff;
+    font-size: 25px;
+    margin: 50px 20px;    
+    font-family: 'Michroma', sans-serif; 
+}
+
+
+/* Dance Carousel End */
+
+
 /* Upcoming Events*/
 
 .upcoming_events{
@@ -131,9 +172,22 @@ h2{
     font-family: 'Raleway', sans-serif;
 }
 
-
 /* Upcoming Events */
 
+
+
+
+/* Footer */
+
+
+#footer{
+    display: flex;
+    justify-content:center;
+    background: rgb(134,121,166);
+    background: linear-gradient(90deg, rgba(134,121,166,1) 0%, rgba(0,0,0,1) 50%, rgba(134,121,166,1) 100%); 
+    border-top: 4px solid #222;
+    margin: 0 auto;    
+}
 
 
 .instagram_container{
@@ -163,14 +217,6 @@ h2{
 }
 
 
-#footer{
-    display: flex;
-    justify-content:center;
-    background: rgb(134,121,166);
-    background: linear-gradient(90deg, rgba(134,121,166,1) 0%, rgba(0,0,0,1) 50%, rgba(134,121,166,1) 100%); 
-    border-top: 4px solid #222;
-    margin: 0 auto;    
-}
 
 
 
