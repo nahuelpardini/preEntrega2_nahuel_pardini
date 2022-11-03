@@ -37,8 +37,8 @@
 <body>
 <!-- HEADER -->
 <header id="header_index">
-    <section class="main_title_bg" class="container-fluid col-"> 
-        <div class="main_title_text col-">
+    <section class="main_title_bg" class="container-fluid"> 
+        <div class="main_title_text">
             <div id="main_title">BM</div>
         </div>
     </section>     
@@ -85,11 +85,27 @@
 <!-- MAIN -->
 <main class="container">
 <!-- Videos -->
-    <section><article class="dance_videos_title embed-responsive embed-responsive-1by1 embed-responsive-4by3 embed-responsive-16by9 embed-responsive embed-responsive-21by9">Videos</article>
-        <iframe width="560" height="315" class="embed-responsive-item"  src="https://www.youtube.com/embed/7_-LAhrThRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/qpEzHx7UG98" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/0V_cBw9VncU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="560" height="315" class="embed-responsive-item" src="https://www.youtube.com/embed/0V_cBw9VncU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<section><article class="dance_videos_title">Videos</article>
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class='embed-container'>
+                    <iframe src='https://www.youtube.com/embed/7_-LAhrThRE' frameborder='0' allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class='embed-container'>
+                    <iframe src='https://www.youtube.com/embed/qpEzHx7UG98' frameborder='0' allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div class='embed-container'>
+                    <iframe src='https://www.youtube.com/embed/0V_cBw9VncU' frameborder='0' allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
     </section>
 <!-- Videos End -->
 
@@ -97,12 +113,12 @@
 <!--Photos carousel -->
     <section><article class="dance_photos_title">Photos</article>
     <div id="carouselIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
+        <div class="carousel-indicators ">
             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    <div class="carousel-inner my-5">
+    <div class="carousel-inner my-5 ">
         <div class="carousel-item active">
             <img src="../img/coming_soon.jpeg" class="d-block w-100 col-sm-auto col-md-auto col-lg-auto col-xl-auto p-4" alt="...">
         </div>
