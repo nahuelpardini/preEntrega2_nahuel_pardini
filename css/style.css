@@ -321,7 +321,7 @@ button.btn {
     background: rgb(134,121,166);
     background: linear-gradient(90deg, rgba(134,121,166,1) 0%, rgba(0,0,0,1) 50%, rgba(134,121,166,1) 100%); 
     border-top: 4px solid #222;
-    /* margin: 0 auto;   */  
+     
 }
 
 
