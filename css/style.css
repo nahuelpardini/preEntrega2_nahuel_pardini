@@ -238,7 +238,8 @@ h2{
 /* Contact */
 
 .contact_title {
-    text-decoration-color:#ffffff;
+    
+    background-color: white;
     font-size: 25px;
     margin: 50px 20px;    
     font-family: 'Michroma', sans-serif; 
@@ -246,7 +247,7 @@ h2{
 }
 
 .form4 {
-    background-color: whitesmoke;
+    background-color: white;
     background-size: cover;
 }
 
@@ -261,7 +262,7 @@ h2{
 }
 
 .form {
-    background-color: whitesmoke !important;
+    background-color: white !important;
     padding: 20px;
 }
 
@@ -304,7 +305,7 @@ button.btn {
 
 .btn-blue {
     background-color: #8679a6;
-    color: #fff;
+    color: whitesmoke(141, 35, 132);
     border: 1px solid #000000;
     
 }
